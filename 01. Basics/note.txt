@@ -1,0 +1,9 @@
+console:- console is an object containing various methods.
+    each methods containing their own functions and what 
+    they represent.
+    i.e
+    .log: to log onto the console
+    .warn: to log a warning onto the console.
+    .warn: to display error message onto the console.
+    etc.
+
