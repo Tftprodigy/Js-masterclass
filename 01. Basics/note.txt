@@ -7,3 +7,30 @@ console:- console is an object containing various methods.
     .warn: to display error message onto the console.
     etc.
 
+variable:- is a container that store data values.
+        declaring a variable
+        (reserved keyword) (var name) (type of var)
+        let, var, const.
+        typeof: is a keyword used to get the type of data
+                stored in a variable. i.e
+                        console.log(typeof name)
+        
+
+
+Stirng:- characters enclosed in quotes are called strings.
+        
+        methods in strings.
+
+    - .concat(variable to concat) : is a method used to join strings together.
+    - append:- denoted using += is used to update a string to add
+                more values to it.
+    - .length() :- used to check the lenght of a string.
+    - .toLowerCase() :- used to convert a string to lower case.
+    - .toUpperCase() :-  used to convert a string to upper case.
+    - .slice() :- used to slice a string character. it takes in
+                  two values, the starting point & end.
+    - .includes() :- used to check if a specified character
+                     is present or included in a string. it 
+                     return boolean type true or false.
+    - .trim() :- mostly used to trim blank spaces in a string.
+    
