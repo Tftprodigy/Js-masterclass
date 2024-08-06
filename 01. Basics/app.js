@@ -180,21 +180,26 @@ let secondName = "Dev ";
 // console.log(trimTest.trim());
 //
 //------------------------------------------
-let newName = "universal";
-let lastName = "webDev";
+// let newName = "universal";
+// let lastName = "webDev";
 
-let ytChannel = `${newName} ${lastName} welcome  `;
-console.log(ytChannel);
-//----------------------------------------------------
-// 5.7 Assignment
+// let ytChannel = `${newName} ${lastName} welcome  `;
+// console.log(ytChannel);
+// //----------------------------------------------------
+// // 5.7 Assignment
 
-let favActorFN = "Ryan ";
-let favActorLN = "Reynold";
-let fullActorName = favActorFN.concat(favActorLN);
+// let favActorFN = "Ryan ";
+// let favActorLN = "Reynold";
+// let fullActorName = favActorFN.concat(favActorLN);
 
-let uppercase = fullActorName.toUpperCase();
-let message = `my favorite actor is ${fullActorName} he acts well`;
+// let uppercase = fullActorName.toUpperCase();
+// let message = `my favorite actor is ${fullActorName} he acts well`;
 
-message += ` his best show is silicon vally `;
-console.log(message);
- 
+// message += ` his best show is silicon vally `;
+// console.log(message);
+
+// #06. Type Conversion
+let money = "50";
+
+console.log(typeof parseInt(money));
+console.log(typeof money);
