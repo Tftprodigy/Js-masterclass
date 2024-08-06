@@ -1,0 +1,55 @@
+if statement ;- is a control flow statement that provide
+                multiple possible result of how a code should
+                run if certain conditions are met or not.
+
+            syntax: if (condition) {...codeblock...}
+                    else if (cond..) {..codeblock...}
+                    else {...codeblock...}
+
+switch statement :- is another way to control the flow of a program.
+            syntax:
+                    switch (expr) {
+                    case a:
+                        print
+                        break;
+                    case b:
+                        print
+                        break;
+                    }
+
+for loops: is used to repeat a block of code a bunch of time.
+           it sllows the iteration of data in a block of code.
+
+    syntax:
+           for (initialExpr; condition; incrementExpr-Or-DecrementExpr){COde}
+
+the idea behind for loop is, initialExpr is used to initialise a variable as 
+a counter, then the condition is set to determine how much the code should run,
+then the increment or decrement is the iteration counter.
+
+
+while loops:- 
+        syntax:
+                while(condition) {
+                     codeblock
+                        i++
+                    }
+
+in while the initialization of the counter is done outside the 
+while statement and the incrementation of the counter is done after
+the code block to avoid infinite loop.
+
+DO while loop:-
+        syntax:
+                let i = 1; 
+                do {
+                    code...
+                    i++
+                } while (condition);
+
+
+
+Logical Operators: allows us to produce and make sense to logic.
+        AND:- &&
+        OR:- ||
+        NOT:= !
