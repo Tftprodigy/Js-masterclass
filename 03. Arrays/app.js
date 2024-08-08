@@ -26,19 +26,72 @@ const myList = [];
 // // create mixed array and store different datatype
 // console.log(mixedArr[1], mixedArr[0]);
 
-// #02. Array Methods
-const fruits = [
-  "ogede",
-  "osan",
-  "mango",
-  "strawberries",
-  "pineapple",
-  "grapefruit",
-];
+// // #02. Array Methods
+// const fruits = [
+//   "ogede",
+//   "osan",
+//   "mango",
+//   "strawberries",
+//   "pineapple",
+//   "grapefruit",
+// ];
 
-fruits.push("agbalumo");
-fruits.pop();
-fruits.shift();
-fruits.unshift("cucumber");
+// fruits.push("agbalumo");
+// fruits.pop();
+// fruits.shift();
+// fruits.unshift("cucumber");
 
-console.log(fruits);
+// console.log(fruits);
+
+// 03.  OBJECTS
+
+// synatx:
+// // let obj_name = {
+//     key: 'property',
+//    key: 'property',
+// }
+
+const person = {
+  name: "Universal Dev",
+  role: "backend Dev",
+  age: 25,
+  location: ["surulere", "Lagos"],
+  isProgrammer: true,
+};
+// console.log(person);
+// console.log(person.name);
+// console.log(person["name"]);
+// console.log(person.role);
+// console.log(person["role"]);
+// console.log(person.age);
+// console.log(person["age"]);
+// console.log(person.location);
+// console.log(person["location"]);
+// console.log(person.isProgrammer);
+// console.log(person["isProgrammer"]);
+
+//Adding new properties to an object
+// person.working = true;
+// person.lol = "qwery";
+// console.log(person);
+
+// // deleting existing properties to an object
+// delete person.lol;
+// console.log(person);
+
+// 3.1 OBJECT ASSIGNMENT
+let car = {
+  type: "benz",
+  model: "2002 convertable",
+  color: "super red",
+};
+
+console.log(typeof car);
+
+// update type
+car.type = "toyota";
+console.log(car);
+
+// add wheels
+car.wheels = "shinny";
+console.log(car);

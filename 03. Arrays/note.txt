@@ -23,3 +23,13 @@ Array Methods:
         .slice(): selecta the part of an array & returns new array.
 
         .splice(): removes or replaces existing elements/ add new elements.
+
+
+OBJECTS: OBJECTS are data structure that allow us store data,
+         also with the data label.
+ 
+//Adding new properties to an object
+person.working = true;
+
+// deleting existing properties to an object
+delete person.lol;
