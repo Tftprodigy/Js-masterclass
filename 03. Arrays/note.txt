@@ -1,0 +1,25 @@
+arrays:- are 0 index base, which allow us to store the collection
+        of data in a single location.
+
+Array Methods:
+        .concat(): joins two or more arrays & returns a result.
+
+        .includes(): checks if an array contain a specified element.
+
+        .push() : adds new element to the end of an array & returns the 
+                  new length of the array.
+        
+        .unshift(): adds new element to the beginning of an array & returns
+                   the new length of the array.
+
+        .pop() : removes the last element of an array & returns the removed
+                 element.
+        
+        .shift() : removes the first element of an array & returns the removed
+                 element.
+        
+        .sort() : sorta the elements alphabetically in strings & ascedning order.
+
+        .slice(): selecta the part of an array & returns new array.
+
+        .splice(): removes or replaces existing elements/ add new elements.
