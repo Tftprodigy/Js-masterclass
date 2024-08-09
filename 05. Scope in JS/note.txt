@@ -1,0 +1,10 @@
+scopes - referes to the current context of code that determines 
+        the accessibility of variables to js.
+
+    They are two types of scopes in js
+        a. Global scope: are varaibles declared outside of
+            of a block.
+        b. Local scope varaibles are those declared inside
+            of a blaock.
+        
+    
