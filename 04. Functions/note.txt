@@ -1,0 +1,47 @@
+function = is a block of code that performs a specific task.
+            Why function?
+        a. makes the code reusable, can be declared once and 
+           used multiple times.
+        b. makes the code easier as each small task is divided
+           into function.
+        c. increases readability.
+        d. DRY - Don't Repeat Yourself
+
+    SYntax:
+        function name(para) {
+            ...code...
+        }
+
+
+
+        // function taking parameters
+
+//  function funcName (parameter) {
+                ...code...
+        }
+    funcName(Argument);
+
+
+return keyword in function:- 
+
+
+ #02. Function Declarion and Function Expression:
+ declaration : The normal way to declare a function which is
+                
+                function name(parameters){
+                    ...code...
+                }
+                function call(args)
+
+Expression: is a function that is wrapped or stored
+            inside a variable.
+
+            let varName = function (parameters) {
+                ...code...
+            }
+            functionVarCall(args)
+
+
+callback function: WHEN we provide a function as an Argument
+                  to other function, that function is known as 
+                  callback function
