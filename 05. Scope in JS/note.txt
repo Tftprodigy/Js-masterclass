@@ -7,4 +7,19 @@ scopes - referes to the current context of code that determines
         b. Local scope varaibles are those declared inside
             of a blaock.
         
+
+
+Methods in js: are functions inside an object.
+
+JSON: JavaScript Object Notation. is an open data interchange
+      format that is both human and machine-readable.
     
+    a. it is used to format code to be readable to human 
+        and machine.
+    b. the extension is .JSON
+    c. property keys are quoted.
+        i.e
+            {
+                "name": "John",
+                "age": 50,
+            }

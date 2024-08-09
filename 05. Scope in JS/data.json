@@ -1,0 +1,11 @@
+{
+  "name": "Universal Dev Ola",
+  "age": 25,
+  "email": null,
+  "hobbies": ["coding", "sports", "Cooking"],
+  "adress": {
+    "city": "surulere",
+    "House": 77,
+    "confirmed": true
+  }
+}
