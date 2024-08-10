@@ -1,0 +1,7 @@
+Template strings: AKA template literals, are a feature of js
+            that allows to create strings with embedded 
+            expressions. they are denoted by `` instead of a
+            '' or "". Template stringsprovide a more flexible &
+            concise wya to construct strings, especially when they
+            involve variables or expressions.
+            
