@@ -23,3 +23,30 @@ JSON: JavaScript Object Notation. is an open data interchange
                 "name": "John",
                 "age": 50,
             }
+
+Date Constructor: used in working with date and time.
+        the value is passed in the constructor as followed.
+    const name = new Date();
+    i.e
+    const currentDate = new Date();
+
+
+SET INTERVAL(): is used to execute a function or a block of
+            code at a specified interval.
+
+        setInterval(function(){
+            ...code of function block
+        }, intervalBytime);
+
+
+setTimeOut(): is used to execute a function or a block of
+            code a  specified delay.
+
+          setTimeOut(function(){
+            ...code of function block
+        }, timeOutInMilliseconds);
+
+clearInterval() : is used to stop or break a setInterval format
+                 being in an infinite loop.
+                 it breaks out of the cycle of the setInterval.
+                 
