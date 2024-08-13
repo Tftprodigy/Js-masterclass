@@ -5,3 +5,19 @@ Template strings: AKA template literals, are a feature of js
             concise wya to construct strings, especially when they
             involve variables or expressions.
             
+
+aRROW functions:- AKA as fat arrow function, are a concise
+            & shorter way to define functions in js. they
+            were introduced in ECMAScript6 (ES6) & only
+            provide a more compact syntax compared to 
+            tradinal function expressions.
+
+         syntax :
+ (parameters) => some code
+
+// // N/B: if the arrow function is taking a single parameter
+// // getting rid of the parenthesis & the code still runs
+
+// if a the function only has one statement, the function
+// // {} can be omitted provided that it statement is written
+// // in a single line.
