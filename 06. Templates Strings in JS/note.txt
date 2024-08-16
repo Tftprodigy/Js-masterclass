@@ -21,3 +21,10 @@ aRROW functions:- AKA as fat arrow function, are a concise
 // if a the function only has one statement, the function
 // // {} can be omitted provided that it statement is written
 // // in a single line.
+
+
+Enhanced object literals:- are set of enchanement to the syntax
+                for defining objects in js. These enhancements
+                makes it more conveniet & concise to define object
+                properties & methods.
+                

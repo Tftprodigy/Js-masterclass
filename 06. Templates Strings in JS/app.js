@@ -111,19 +111,98 @@
 
 // console.log(userCheck(fullClass[1].name, fullClass[1].password));
 
-// ### ARROW FUNCTION ASSIGNMENT (COde Refactor)
-setTimeout(() => {
-  console.log(`Hello`);
-  setTimeout(() => {
-    console.log("hey");
-    setTimeout(() => {
-      console.log("Namaste");
-      setTimeout(() => {
-        console.log(`Hi`);
-        setTimeout(() => {
-          console.log("Bonjour");
-        }, 2000);
-      }, 2000);
-    }, 2000);
-  }, 2000);
-}, 2000);
+// // ### ARROW FUNCTION ASSIGNMENT (COde Refactor)
+// setTimeout(() => {
+//   console.log(`Hello`);
+//   setTimeout(() => {
+//     console.log("hey");
+//     setTimeout(() => {
+//       console.log("Namaste");
+//       setTimeout(() => {
+//         console.log(`Hi`);
+//         setTimeout(() => {
+//           console.log("Bonjour");
+//         }, 2000);
+//       }, 2000);
+//     }, 2000);
+//   }, 2000);
+// }, 2000);
+
+// ### 3.0. ENHANCED OBJECT LITERALS
+// function user(name, age, work, clearance, classi) {
+//   return {
+//     name: name,
+//     age: age,
+//     work: work,
+//     Access: clearance,
+//     classification: classi,
+//   };
+// }
+// // console.log(user("Femi", 25, "Develeoper"));
+
+// const user1 = user("bukky", 27, "B-E Developer", true, 'High');
+// const user2 = user("kemmi", 21, "F-E Developer", false, "High");
+// const user3 = user("Kafffy", 39, "Designer", true, "Medium");
+
+// console.log(user1.Access);
+// console.log(user2.Access);
+// console.log(user2.classification);
+
+// console.log(user3.work, user3.Access, user3.name);
+
+//The above code is a regular function returning returing
+// properties of a user object.
+// Now Lets make use of Enhance Object literals to reform
+// the Code.
+// Enhance object makes the object code shorter by taking out
+// one out, if the property and the value are the same
+// i.e name: name
+
+// function userPrompt(name, age, work) {
+//   return {
+//     name,
+//     age,
+//     work,
+//     // methods are functions available inside objects only
+//     intro: () => {
+//       return `Hello my name is ${name}, i am ${age} years
+//       old and my job is a ${work}`
+//     }
+//   };
+// }
+// const userAlex = userPrompt("Alex", 25, "Engineer");
+// const userBen = userPrompt("Ben", 27, "Rapper");
+
+// console.log(userAlex);
+// console.log(userBen.intro());
+
+// ##3.1 ENHANCED lITERAL ASSIGNMENT
+//convert es5 to es6
+let a = 1;
+let b = 2;
+let c = 3;
+
+let obj = {
+  a,
+  b,
+  c,
+};
+// console.log(obj);
+// --------------------------------------
+
+let lib = {
+  sum: (a, b) => a + b,
+  mult: (a, b) => a * b,
+};
+console.log(lib.sum(2, 3));
+console.log(lib.mult(2, 3));
+// -----------------------------------------
+
+const getPerson = (name, age, height) => {
+  return {
+    name,
+    age,
+    height,
+  };
+};
+console.log(getPerson("kkk", 25, 300));
