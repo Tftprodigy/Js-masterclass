@@ -27,4 +27,22 @@ Enhanced object literals:- are set of enchanement to the syntax
                 for defining objects in js. These enhancements
                 makes it more conveniet & concise to define object
                 properties & methods.
+
+DEFAULT FUNCTION PARAMEETERS: Allows assign of default values to function
+                parameters. when a functionis called, & an argument is
+                not provided for a parameter, the default value will be
+                used instead. This feature makes it easier to handle cases
+                where args might be missing or undefined.
+
+SPREAD OPERATOR: IT TAKES an iterable i.e array and expands it
+                into individual elements.
+                The spread operator is commonly used to makes 
+                shallow copies of js objects.
+                using this operator makes the code concise and
+                to read.
+
+DESTRUCTURING: allows us to unppsck vslues from data structures (arrays,
+                objects) into seperate distinct variables
+
+
                 

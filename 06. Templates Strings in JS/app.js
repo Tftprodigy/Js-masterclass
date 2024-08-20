@@ -178,31 +178,104 @@
 
 // ##3.1 ENHANCED lITERAL ASSIGNMENT
 //convert es5 to es6
-let a = 1;
-let b = 2;
-let c = 3;
+// let a = 1;
+// let b = 2;
+// let c = 3;
 
-let obj = {
-  a,
-  b,
-  c,
-};
-// console.log(obj);
-// --------------------------------------
+// let obj = {
+//   a,
+//   b,
+//   c,
+// };
+// // console.log(obj);
+// // --------------------------------------
 
-let lib = {
-  sum: (a, b) => a + b,
-  mult: (a, b) => a * b,
-};
-console.log(lib.sum(2, 3));
-console.log(lib.mult(2, 3));
-// -----------------------------------------
+// // let lib = {
+// //   sum: (a, b) => a + b,
+// //   mult: (a, b) => a * b,
+// // };
+// // console.log(lib.sum(2, 3));
+// // console.log(lib.mult(2, 3));
+// // // -----------------------------------------
 
-const getPerson = (name, age, height) => {
-  return {
-    name,
-    age,
-    height,
-  };
-};
-console.log(getPerson("kkk", 25, 300));
+// // const getPerson = (name, age, height) => {
+// //   return {
+// //     name,
+// //     age,
+// //     height,
+// //   };
+// // };
+// // console.log(getPerson("kkk", 25, 300));
+// // --------------------------------------------------
+
+// // ###4.0 DEFAULT FUNCTION PARAMEETERS
+// // ## ASSIGNMENT
+
+// const mult = (a, b = 1) => {
+//   return a * b;
+// };
+// console.log(mult(5));
+// // ............................................
+
+// // ###5.0 SPREAD OPERATOR
+// let arr = [1, 2, 3];
+// let arr2 = [4, 5];
+// const clone = [...arr, ...arr2];
+
+// console.log(clone);
+
+// let user = {
+//   name: "Jen",
+//   age: 22,
+// };
+// const userClone = {...user};
+// console.log(userClone);
+
+// ###6.0 DESTRUCTURING'
+// DESTRUCTURING: allows us to unppsck vslues from data structures (arrays,
+// objects) into seperate distinct variables
+
+// ##6.1Destrucing with Arrays
+const count = ["one", "two", "three"];
+// we can destructure the array by assigning it to individual
+// varaibles like.
+const [green, blue, red] = count;
+
+// console.log(green);
+// console.log(blue);
+// console.log(red);
+
+const nums = [1, 2, 3, 4];
+const [element1, element2, element3, element4] = nums;
+console.log(element1, element2, element3, element4);
+
+// ##6.2 Destructuring Objects
+// syntax:
+// let obj = {
+// prop: 'value'
+// prop: 'value'
+//
+// }
+/*
+let {prop, prop} = obj;
+*/
+
+// let person = {
+//   firstName: "Camile",
+//   lastName: "Angel",
+// };
+
+// let { firstName, lastName } = person;
+// console.log(firstName);
+// console.log(lastName);
+
+// // setting default values in destructing
+// let person1 = {
+//   fName: "Chike",
+//   lName: "Emeka",
+//   age: 28,
+// };
+
+// let {fName, lName, middlename = "''", age} = person1;
+// console.log(middlename);
+// console.log(fName, age);
