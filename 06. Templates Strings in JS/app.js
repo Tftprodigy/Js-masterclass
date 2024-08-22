@@ -400,7 +400,7 @@ let {prop, prop} = obj;
 // console.log(newX);
 // console.log(newY);
 
-// // Assignment 
+// // Assignment
 // const person = {
 //   name: "John Doe",
 //   age: 30,
@@ -412,9 +412,34 @@ let {prop, prop} = obj;
 // console.log(personAge);
 // console.log(personCountry);
 
-
 // #7.8. FUNCTION DESTRUCTURING.
-function printPersonInfo(person) {
-    
+// const person = {
+//   name: "john doe",
+//   age: 25,
+//   country: "usa",
+// };
+// function printPersonInfo({ name, age, country }) {
+//   console.log(`Name: ${name}`);
+//   console.log(`Age: ${age}`);
+//   console.log(`country: ${country}`);
+// }
 
-}
+// printPersonInfo(person);
+// // ........................
+
+// let options = {
+//   title: "my menu",
+//   items: [item1, item2],
+// };
+
+// function showMenu({
+//     title,
+//     width: w = 100,
+//     height: h = 200,
+//     items: [item1, item2]
+// }) {
+// console.log(`${title} ${w} ${h}`);
+// console.log(item1);
+// console.log(item2);
+// }
+// console.log(options);
