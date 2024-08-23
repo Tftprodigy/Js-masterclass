@@ -14,3 +14,12 @@ for...in:     for in loop is used to iterate over the enumerable
             the keys(property names) of an object.
 
                     for(let key in object) {...}
+
+For...of loop: is a modern iteration statment used in es6 that
+            providess a concise way to loop over elements in 
+            iterables objects like a arrays, stirngs, maps, sets
+            & more. it allows u to iterate directly over values
+            of elements, rather than dealing with the indices or
+            keys.
+
+                    for (variable of iterable) {...}

@@ -44,18 +44,33 @@
 
 // changing the varaible name to see if key will work in
 // arrays also
-let list = ["one", "two", "three", "four"];
-for (let key in list) {
-//   console.log(`${key} ${list[key]}`);
-}
+// let list = ["one", "two", "three", "four"];
+// for (let key in list) {
+//   //   console.log(`${key} ${list[key]}`);
+// }
 
-// ##2.1 ASSIGNment For in loop
-// iterate over the object & log property and values.
-const obj = {
-  a: 1,
-  b: 2,
-  c: 3,
-};
-for (let keys in obj) {
-    console.log(keys, obj[keys]);
+// // ##2.1 ASSIGNment For in loop
+// // iterate over the object & log property and values.
+// const obj = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+// };
+// for (let keys in obj) {
+//   //   console.log(keys, obj[keys]);
+// }
+
+// // ##3.0 For...of loop
+// // syntax:
+// // for (variable of iterable) {...}
+// let peoples = ["jon", "sam", "brad", "quin"];
+// for (let person of peoples) {
+// //   console.log(person);
+// }
+
+// ##3.1 Assignment FOr...of loop
+// iterate over 'array1' & log its value.
+const array1 = ["a", "b", "c"];
+for (const index of array1) {
+    console.log(index);
 }
