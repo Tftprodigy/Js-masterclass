@@ -77,11 +77,42 @@
 
 // #4.0 forEach helper
 
-const colors = ["red", "teal", "blue", "grey"];
+// const colors = ["red", "teal", "blue", "grey"];
 // colors.forEach(function(color) {
 //     console.log(color);
 // })
 
-// simply the code by using arrow function
-colors.forEach((color) => {console.log(color);})
+// // simply the code by using arrow function
+// colors.forEach((color) => {
+//   console.log(color);
+// });
 
+// // ###5.0 map method
+// let numbers = [1, 2, , 3];
+// // let double = numbers.map(function (num) {
+// //   return num * 2;
+// // });
+
+// // console.log(double);
+
+// // lets try to write it better with a arrow function
+// let double = numbers.map((num) => num * 2);
+// console.log(double);
+
+// let peoples = [
+//   { firstName: "ken", lastName: "Bet" },
+//   { firstName: "Becky", lastName: "node" },
+//   { firstName: "git", lastName: "Hub" },
+// ];
+
+// const res = peoples.map(function(person) {
+//     return [person.firstName, person.lastName]
+// })
+// console.log(res);
+
+// #5.1 Assingment
+// create array with random number
+// map over each item & multiply them by 10.
+// const numbers = [1, 4, 5, 6, 7];
+// const res = numbers.map((num) => num * 10);
+// console.log(res);
