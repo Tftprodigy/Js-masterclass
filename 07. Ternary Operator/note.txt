@@ -7,3 +7,10 @@ ternary operator: is a concise way of writing conditional
                 to execute if condition is false.
                 
                 condition ? exprIfTrue : exprIfFalse
+
+
+for...in:     for in loop is used to iterate over the enumerable
+            properties of an object. it is a way to loop through
+            the keys(property names) of an object.
+
+                    for(let key in object) {...}
