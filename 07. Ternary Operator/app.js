@@ -70,7 +70,18 @@
 
 // ##3.1 Assignment FOr...of loop
 // iterate over 'array1' & log its value.
-const array1 = ["a", "b", "c"];
-for (const index of array1) {
-    console.log(index);
-}
+// const array1 = ["a", "b", "c"];
+// for (const index of array1) {
+//     console.log(index);
+// }
+
+// #4.0 forEach helper
+
+const colors = ["red", "teal", "blue", "grey"];
+// colors.forEach(function(color) {
+//     console.log(color);
+// })
+
+// simply the code by using arrow function
+colors.forEach((color) => {console.log(color);})
+
