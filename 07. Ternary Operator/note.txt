@@ -1,0 +1,9 @@
+ternary operator: is a concise way of writing conditional
+                expressions.
+                it is the only js operator that takes three
+                operands: a condition followed by a question
+                mark (?), an expression to execute if condition
+                is true, followed by a colon(:) and an expression
+                to execute if condition is false.
+                
+                condition ? exprIfTrue : exprIfFalse
